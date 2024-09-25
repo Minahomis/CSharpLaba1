@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Minahomis\\source\\repos\\CherkovaV_laba1\\CherkovaV_laba1\\CherkovaV_laba1.csproj",
+      "projectUniqueName": "C:\\Users\\Minahomis\\Desktop\\C#\\Homework\\CSharpLaba1\\CherkovaV_laba1\\CherkovaV_laba1.csproj",
       "projectName": "CherkovaV_laba1",
-      "projectPath": "C:\\Users\\Minahomis\\source\\repos\\CherkovaV_laba1\\CherkovaV_laba1\\CherkovaV_laba1.csproj",
+      "projectPath": "C:\\Users\\Minahomis\\Desktop\\C#\\Homework\\CSharpLaba1\\CherkovaV_laba1\\CherkovaV_laba1.csproj",
       "packagesPath": "C:\\Users\\Minahomis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Minahomis\\source\\repos\\CherkovaV_laba1\\CherkovaV_laba1\\obj\\",
+      "outputPath": "C:\\Users\\Minahomis\\Desktop\\C#\\Homework\\CSharpLaba1\\CherkovaV_laba1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

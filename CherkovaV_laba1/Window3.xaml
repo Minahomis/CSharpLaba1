@@ -6,6 +6,12 @@
         xmlns:local="clr-namespace:CherkovaV_laba1"
         mc:Ignorable="d"
         Title="Window3" Height="450" Width="800">
+    <Window.Background>
+        <RadialGradientBrush>
+            <GradientStop Color="#FFFFF3F3" Offset ="0"/>
+            <GradientStop Color="#FF7D9191" Offset="1.3"/>
+        </RadialGradientBrush>
+    </Window.Background>
     <Grid>
         <Label Content="Дан массив ненулевых целых чисел размера N." HorizontalAlignment="Left" Margin="156,23,0,0" VerticalAlignment="Top"/>
         <Label Content=" Проверить, чередуются ли в нем четные и нечетные числа. " HorizontalAlignment="Left" Margin="156,54,0,0" VerticalAlignment="Top"/>

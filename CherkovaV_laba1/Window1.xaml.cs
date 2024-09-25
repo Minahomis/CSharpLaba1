@@ -26,9 +26,16 @@ namespace CherkovaV_laba1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            int a = Convert.ToInt32(Label1.Text);
-            int day = (a % 4 == 0 && a % 100 != 0 || a % 400 == 0) ? 366 : 365;
-            Label2.Text = Convert.ToString(day);
+            if (int.TryParse(Label1.Text, out int a))
+            {
+
+                int day = (a % 4 == 0 && a % 100 != 0 || a % 400 == 0) ? 366 : 365;
+                Label2.Text = Convert.ToString(day);
+            }
+            else
+            {
+                MessageBox.Show("Некорректный ввод!");
+            }
          
         }
 
