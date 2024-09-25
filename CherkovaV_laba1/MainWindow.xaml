@@ -1,0 +1,23 @@
+﻿<Window x:Class="CherkovaV_laba1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CherkovaV_laba1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Background>
+        <RadialGradientBrush>
+            <GradientStop Color="#FFFFF3F3" Offset ="0"/>
+            <GradientStop Color="#FF7D9191" Offset="1"/>
+        </RadialGradientBrush>
+    </Window.Background>
+    <Grid>
+        <Button x:Name="bt_1" Content="Ex1" HorizontalAlignment="Left" Margin="22,174,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.282,-0.339" Height="77" Width="135" Background="#FFCEDA7B" BorderBrush="#FFA82222" Click="bt_1_Click"/>
+        <Button x:Name="bt_2" Content="Ex2" HorizontalAlignment="Left" Margin="183,174,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.282,-0.339" Height="77" Width="135" Background="#FFCEDA7B" BorderBrush="#FFA82222" Click="bt_2_Click"/>
+        <Button x:Name="bt_3" Content="Ex3" HorizontalAlignment="Left" Margin="344,174,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.282,-0.339" Height="77" Width="135" Background="#FFCEDA7B" BorderBrush="#FFA82222" Click="bt_3_Click"/>
+        <Button x:Name="bt_4" Content="Ex4" HorizontalAlignment="Left" Margin="502,174,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.282,-0.339" Height="77" Width="135" Background="#FFCEDA7B" BorderBrush="#FFA82222" Click="bt_4_Click"/>
+        <Button x:Name="bt_5" Content="Ex5" HorizontalAlignment="Left" Margin="656,174,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.282,-0.339" Height="77" Width="135" Foreground="#FF3A1616" Background="#FFCEDA7B" BorderBrush="#FFA82222"/>
+
+    </Grid>
+</Window>

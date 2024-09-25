@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CherkovaV_laba1/1.0.0": {
+        "runtime": {
+          "CherkovaV_laba1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CherkovaV_laba1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

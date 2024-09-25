@@ -1,0 +1,21 @@
+﻿<Window x:Class="CherkovaV_laba1.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CherkovaV_laba1"
+        mc:Ignorable="d"
+        Title="Window3" Height="450" Width="800">
+    <Grid>
+        <Label Content="Дан массив ненулевых целых чисел размера N." HorizontalAlignment="Left" Margin="156,23,0,0" VerticalAlignment="Top"/>
+        <Label Content=" Проверить, чередуются ли в нем четные и нечетные числа. " HorizontalAlignment="Left" Margin="156,54,0,0" VerticalAlignment="Top"/>
+        <Label Content="Введите массив чисел:" HorizontalAlignment="Left" Margin="89,131,0,0" VerticalAlignment="Top"/>
+        <Label Content="Итог:" HorizontalAlignment="Left" Margin="89,162,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="ButtonGo" Content="Посчитать" HorizontalAlignment="Left" Margin="506,249,0,0" VerticalAlignment="Top" Click="ButtonGo_Click"/>
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Margin="228,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="443" Height="22" TextChanged="TextBox1_TextChanged"/>
+        <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Margin="182,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74" Height="22"/>
+        <Label Content="Если чередуются, то вывести 0, если нет, то вывести номер первого элемента, нарушающего закономерность." HorizontalAlignment="Left" Margin="157,85,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="BattonExit" Content="Назад" HorizontalAlignment="Left" Margin="41,10,0,0" VerticalAlignment="Top" Height="36" Width="94" Click="BattonExit_Click"/>
+
+    </Grid>
+</Window>

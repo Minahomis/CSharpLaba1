@@ -1,0 +1,20 @@
+﻿<Window x:Class="CherkovaV_laba1.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CherkovaV_laba1"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="BattonExit" Content="Назад" HorizontalAlignment="Left" Margin="41,10,0,0" VerticalAlignment="Top" Height="36" Width="94" Click="BattonExit_Click"/>
+        <Button x:Name="BattonResult" Content="Посчитать" HorizontalAlignment="Left" Margin="470,184,0,0" VerticalAlignment="Top" Click="BattonResult_Click"/>
+        <Label Content="Дан массив размера N. Найти два элемента массива, сумма которых наиболее близка к максимуму массива, и поменять их местами." HorizontalAlignment="Left" Margin="41,72,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextBoxArray" HorizontalAlignment="Left" Margin="294,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Введите Ваш массив:" HorizontalAlignment="Left" Margin="141,123,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.92,-0.172"/>
+        <TextBox x:Name="TextBoxNewArray" HorizontalAlignment="Left" Margin="294,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Новый массив:" HorizontalAlignment="Left" Margin="157,199,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Test" HorizontalAlignment="Left" Margin="354,272,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
