@@ -5,7 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CherkovaV_laba1"
         mc:Ignorable="d"
-        Title="Window2" Height="450" Width="800">
+        Title="Window2" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen"
+        >
+
+
     <Window.Background>
         <RadialGradientBrush>
             <GradientStop Color="#FFFFF3F3" Offset ="0"/>
@@ -13,14 +17,17 @@
         </RadialGradientBrush>
     </Window.Background>
     <Grid>
-        <Button x:Name="BattonExit" Content="Назад" HorizontalAlignment="Left" Margin="41,10,0,0" VerticalAlignment="Top" Height="36" Width="94" Click="BattonExit_Click"/>
-        <Button x:Name="BattonResult" Content="Посчитать" HorizontalAlignment="Left" Margin="470,184,0,0" VerticalAlignment="Top" Click="BattonResult_Click"/>
-        <Label Content="Дан массив размера N. Найти два элемента массива, сумма которых наиболее близка к максимуму массива, и поменять их местами." HorizontalAlignment="Left" Margin="41,72,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="TextBoxArray" HorizontalAlignment="Left" Margin="294,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Введите Ваш массив:" HorizontalAlignment="Left" Margin="141,123,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.92,-0.172"/>
-        <TextBox x:Name="TextBoxNewArray" HorizontalAlignment="Left" Margin="294,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Новый массив:" HorizontalAlignment="Left" Margin="157,199,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="Test" HorizontalAlignment="Left" Margin="354,272,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Инструкция:" HorizontalAlignment="Left" Margin="293,28,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.871,1.341" FontSize="22" FontFamily="Times New Roman"/>
+        <Button x:Name="BattonExit" Content="Назад" HorizontalAlignment="Left" Margin="41,10,0,0" VerticalAlignment="Top" Height="36" Width="94" Click="BattonExit_Click" FontFamily="Times New Roman" FontSize="18"/>
+        <Button x:Name="BattonResult" Content="Посчитать" HorizontalAlignment="Left" Margin="483,169,0,0" VerticalAlignment="Top" Height="45" Width="135"
+                Click="BattonResult_Click" FontFamily="Times New Roman" FontSize="18"/>
+        <Label Content="Дан массив размера N. Найти два элемента массива," HorizontalAlignment="Left" Margin="150,68,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="18"/>
+        <TextBox x:Name="TextBoxArray" Text ="формат: 1, 2, 6, 10" HorizontalAlignment="Left" Margin="270,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="28" FontFamily="Times New Roman" FontSize="18"/>
+        <Label Content="Введите Ваш массив:" HorizontalAlignment="Left" Margin="90,150,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.92,-0.172" FontFamily="Times New Roman" FontSize="18"/>
+        <TextBox x:Name="TextBoxNewArray" HorizontalAlignment="Left" Margin="270,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="28"/>
+        <Label Content="Новый массив:" HorizontalAlignment="Left" Margin="90,0,0,0" VerticalAlignment="Center" FontFamily="Times New Roman" FontSize="18"/>
+        <TextBox x:Name="Test" HorizontalAlignment="Left" Margin="641,369,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" FontFamily="Times New Roman" FontSize="18" RenderTransformOrigin="2.867,2.337"/>
+        <Label Content="сумма которых наиболее близка к максимуму массива, и поменять их местами" HorizontalAlignment="Left" Margin="150,92,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Times New Roman"/>
 
     </Grid>
 </Window>

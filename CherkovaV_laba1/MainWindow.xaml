@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CherkovaV_laba1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
     <Window.Background>
         <RadialGradientBrush>
             <GradientStop Color="#FFFFF3F3" Offset ="0"/>
@@ -13,47 +14,47 @@
         </RadialGradientBrush>
     </Window.Background>
     <Grid>
-        <Button x:Name="bt_1" Content="Ex1" HorizontalAlignment="Left" Margin="20,174,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.282,-0.339" Height="77" Width="135" BorderBrush="#FFA82222" Click="bt_1_Click" FontSize="22">
+        <Button x:Name="bt_1" Content="Ex1" HorizontalAlignment="Left" Margin="20,174,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.282,-0.339" Height="77" Width="135" BorderBrush="#FFA82222" Click="bt_1_Click" FontSize="22" FontFamily="Times New Roman">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFB3B5A1"/>
                     <GradientStop Color="#FF91FFD7" Offset="1"/>
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="bt_2" Content="Ex2" HorizontalAlignment="Left" Margin="180,174,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.282,-0.339" Height="77" Width="135" BorderBrush="#FFA82222" Click="bt_2_Click" FontSize="22">
+        <Button x:Name="bt_2" Content="Ex2" HorizontalAlignment="Left" Margin="180,174,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.282,-0.339" Height="77" Width="135" BorderBrush="#FFA82222" Click="bt_2_Click" FontSize="22" FontFamily="Times New Roman">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFB3B5A1"/>
                     <GradientStop Color="#FF91FFD7" Offset="1"/>
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="bt_3" Content="Ex3" HorizontalAlignment="Left" Margin="340,174,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.282,-0.339" Height="77" Width="135" BorderBrush="#FFA82222" Click="bt_3_Click" FontSize="22">
+        <Button x:Name="bt_3" Content="Ex3" HorizontalAlignment="Left" Margin="340,174,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.282,-0.339" Height="77" Width="135" BorderBrush="#FFA82222" Click="bt_3_Click" FontSize="22" FontFamily="Times New Roman">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFB3B5A1"/>
                     <GradientStop Color="#FF91FFD7" Offset="1"/>
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="bt_4" Content="Ex4" HorizontalAlignment="Left" Margin="500,174,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.282,-0.339" Height="77" Width="135" BorderBrush="#FFA82222" Click="bt_4_Click" FontSize="22">
+        <Button x:Name="bt_4" Content="Ex4" HorizontalAlignment="Left" Margin="500,174,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.282,-0.339" Height="77" Width="135" BorderBrush="#FFA82222" Click="bt_4_Click" FontSize="22" FontFamily="Times New Roman">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFB3B5A1"/>
                     <GradientStop Color="#FF91FFD7" Offset="1"/>
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="bt" Content="Ex5" HorizontalAlignment="Left" Margin="660,174,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.282,-0.339" Height="77" Width="135" BorderBrush="#FFA82222" Click="bt_4_Click" FontSize="22">
+        <Button x:Name="bt_5" Content="Ex5" HorizontalAlignment="Left" Margin="660,174,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.282,-0.339" Height="77" Width="135" BorderBrush="#FFA82222" Click="bt_5_Click" FontSize="22" FontFamily="Times New Roman">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFB3B5A1"/>
                     <GradientStop Color="#FF91FFD7" Offset="1"/>
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Label Content="Вариант № 7" HorizontalAlignment="Left" Margin="302,48,0,0" VerticalAlignment="Top" FontSize="28"/>
+        <Label Content="Вариант № 7" HorizontalAlignment="Left" Margin="302,48,0,0" VerticalAlignment="Top" FontSize="28" FontFamily="Times New Roman"/>
 
     </Grid>
 </Window>

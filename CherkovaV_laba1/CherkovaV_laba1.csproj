@@ -8,4 +8,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Fif.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fif.png" />
+  </ItemGroup>
+
 </Project>

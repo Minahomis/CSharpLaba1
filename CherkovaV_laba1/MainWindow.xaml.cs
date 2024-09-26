@@ -50,5 +50,11 @@ namespace CherkovaV_laba1
             Hide();
         }
 
+        private void bt_5_Click(object sender, RoutedEventArgs e)
+        {
+            Window5 window5 = new Window5();
+            window5.Show();
+            Hide();
+        }
     }
 }

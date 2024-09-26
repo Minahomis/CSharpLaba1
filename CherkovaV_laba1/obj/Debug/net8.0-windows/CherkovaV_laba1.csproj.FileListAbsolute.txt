@@ -55,3 +55,5 @@ C:\Users\Minahomis\Desktop\C#\Homework\CSharpLaba1\CherkovaV_laba1\obj\Debug\net
 C:\Users\Minahomis\Desktop\C#\Homework\CSharpLaba1\CherkovaV_laba1\obj\Debug\net8.0-windows\CherkovaV_laba1.pdb
 C:\Users\Minahomis\Desktop\C#\Homework\CSharpLaba1\CherkovaV_laba1\obj\Debug\net8.0-windows\CherkovaV_laba1.genruntimeconfig.cache
 C:\Users\Minahomis\Desktop\C#\Homework\CSharpLaba1\CherkovaV_laba1\obj\Debug\net8.0-windows\ref\CherkovaV_laba1.dll
+C:\Users\Minahomis\Desktop\C#\Homework\CSharpLaba1\CherkovaV_laba1\obj\Debug\net8.0-windows\Window5.g.cs
+C:\Users\Minahomis\Desktop\C#\Homework\CSharpLaba1\CherkovaV_laba1\obj\Debug\net8.0-windows\Window5.baml
